@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f4">
+  <meta name="description" content="StudyFlow helps students turn busy weeks into a calm, achievable study plan.">
+  <title>StudyFlow — Make room for your best work</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="StudyFlow home"><span class="brand-mark" aria-hidden="true">s</span><span>studyflow</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#features">Features</a><a href="#how-it-works">How it works</a><a href="#pricing">Pricing</a>
+        <a class="nav-cta" href="#contact">Get started <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> A little more focus. A lot less overwhelm.</p>
+        <h1>Make room for<br>your <em>best work.</em></h1>
+        <p class="hero-lede">A study plan that fits your real life. Bring your deadlines, find your rhythm, and make steady progress — one focused session at a time.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#contact">Find your flow <span aria-hidden="true">↗</span></a><a class="text-link" href="#how-it-works">See how it works <span aria-hidden="true">↓</span></a></div>
+        <div class="social-proof"><div class="avatar-stack" aria-hidden="true"><span>J</span><span>M</span><span>A</span><span>+</span></div><p><strong>A calmer way to study</strong><br>Built for the way you learn.</p></div>
+      </div>
+      <div class="hero-art" aria-label="StudyFlow weekly study plan preview">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="note note-top"><span class="note-icon">✳</span><div><strong>Small steps count</strong><span>Your next session is ready</span></div></div>
+        <div class="planner-card">
+          <div class="planner-heading"><div><span class="mini-label">YOUR WEEK, IN VIEW</span><h2>A good week starts here.</h2></div><button class="dots" aria-label="More options" type="button">···</button></div>
+          <div class="week-strip"><span><small>MON</small><b>12</b></span><span class="selected"><small>TUE</small><b>13</b></span><span><small>WED</small><b>14</b></span><span><small>THU</small><b>15</b></span><span><small>FRI</small><b>16</b></span></div>
+          <div class="plan-row"><span class="time">09:30</span><span class="plan-color lilac"></span><div><strong>Review: cell biology</strong><small>Biology · 35 min</small></div><span class="check">✓</span></div>
+          <div class="plan-row"><span class="time">11:00</span><span class="plan-color peach"></span><div><strong>Essay outline</strong><small>Modern history · 45 min</small></div><span class="plan-play">→</span></div>
+          <div class="plan-row muted-row"><span class="time">14:00</span><span class="plan-color mint"></span><div><strong>Practice problems</strong><small>Statistics · 25 min</small></div><span class="check">✓</span></div>
+          <div class="planner-footer"><span><i></i> 2 of 3 sessions done</span><div class="progress"><span></span></div><b>67%</b></div>
+        </div>
+        <div class="note note-bottom"><span class="streak">✦</span><div><strong>Look at you, showing up.</strong><span>3 day streak — keep it going</span></div></div>
+        <span class="sparkle sparkle-a">✳</span><span class="sparkle sparkle-b">✦</span>
+      </div>
+    </section>
+
+    <section class="trust container" aria-label="StudyFlow benefits"><span>For every subject and every kind of learner</span><div class="trust-items"><b>Less cramming</b><i>·</i><b>More momentum</b><i>·</i><b>Your pace, always</b></div></section>
+
+    <section class="features section-pad" id="features"><div class="container">
+      <div class="section-intro"><p class="eyebrow">A study space that gets you</p><h2>Get out of your head.<br><em>Into your flow.</em></h2><p>Everything you need to make studying feel a little more doable — thoughtfully brought together in one place.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card feature-planner"><div class="feature-icon lavender">▦</div><h3>A plan that bends with you</h3><p>See your week at a glance. Move a session when life happens and keep your momentum without the guilt.</p><div class="mini-calendar"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><b>1</b><b class="today">2</b><b>3</b><b>4</b><b>5</b><i>✦</i><i>·</i><i>✓</i><i>·</i><i>✦</i></div></article>
+        <article class="feature-card feature-notes"><div class="feature-icon peach-bg">✎</div><h3>Notes that make sense</h3><p>Collect your thoughts, pull out the key ideas, and spend less time rereading the same page.</p><div class="note-preview"><span>LECTURE 04 · BIOLOGY</span><b>How do cells communicate?</b><i></i><i></i><i class="short"></i><small>Key idea <em>→</em> cell signaling</small></div></article>
+        <article class="feature-card feature-focus"><div class="feature-icon mint-bg">◷</div><h3>Focus, one session at a time</h3><p>Break a big task into a small next step. A gentle timer helps you get started and stay present.</p><div class="focus-preview"><div class="focus-ring"><span>25:00<small>MINUTES TO FOCUS</small></span></div><span class="focus-caption">One thing at a time <i>✦</i></span></div></article>
+      </div>
+    </div></section>
+
+    <section class="how section-pad" id="how-it-works"><div class="container how-layout"><div class="how-visual"><div class="how-blob"></div><div class="quote-card"><span>YOUR REMINDER</span><h3>You don’t have to do it all today.</h3><p>Just start with one small thing.</p><div class="quote-mark">“</div></div><div class="task-pill"><span>✓</span> Biology review <small>Done for today</small></div><span class="how-star">✳</span></div><div class="how-copy"><p class="eyebrow">Simple by design</p><h2>From “where do I start?”<br>to <em>“I’ve got this.”</em></h2><p class="how-lede">StudyFlow gives your ideas a place to land and your goals a path forward. No perfect routines required.</p><div class="steps"><article><span>01</span><div><h3>Get it all out</h3><p>Add your classes, tasks, and the dates you want to remember.</p></div></article><article><span>02</span><div><h3>Find your next step</h3><p>Turn the big stuff into a realistic plan that fits your week.</p></div></article><article><span>03</span><div><h3>Show up as you are</h3><p>Focus, make progress, and celebrate the little wins along the way.</p></div></article></div><a class="text-link dark-link" href="#contact">Make a little space for you <span>↗</span></a></div></div></section>
+
+    <section class="pricing section-pad" id="pricing"><div class="container"><div class="section-intro centered"><p class="eyebrow">Room to grow</p><h2>Start where you are.<br><em>Go at your pace.</em></h2><p>All the essentials for a calmer study routine. Pick the plan that feels right for you.</p></div><div class="pricing-grid">
+      <article class="price-card"><p class="plan-name">THE STARTER</p><h3>Free</h3><p class="price-desc">A fresh start, with all the essentials.</p><a class="button button-outline" href="#contact" data-plan="Starter">Start for free <span>↗</span></a><ul><li>✓ Personal weekly planner</li><li>✓ Up to 3 active subjects</li><li>✓ Focus timer and task list</li><li>✓ Progress snapshots</li></ul></article>
+      <article class="price-card pro-card"><div class="popular">A LITTLE EXTRA ROOM</div><p class="plan-name">THE DEEP FOCUS</p><h3>$6 <small>/ month</small></h3><p class="price-desc">For when you’re ready to find your rhythm.</p><a class="button button-dark" href="#contact" data-plan="Deep Focus">Try Deep Focus <span>↗</span></a><ul><li>✓ Everything in Starter</li><li>✓ Unlimited subjects and notes</li><li>✓ Smart study suggestions</li><li>✓ Personal progress insights</li></ul></article>
+    </div><p class="pricing-note">A demo concept, made for learning. No payment information needed.</p></div></section>
+
+    <section class="contact section-pad" id="contact"><div class="container contact-panel"><div class="contact-copy"><p class="eyebrow">Your next chapter starts here</p><h2>Let’s make studying<br><em>feel like yours.</em></h2><p>Tell us a little about what you’re working on. We’ll be in touch with a friendly demo.</p><div class="contact-detail"><span>✉</span><div><small>QUESTIONS? SAY HELLO</small><a href="mailto:hello@studyflow.example">hello@studyflow.example</a></div></div></div><form class="demo-form" id="demo-form" novalidate><h3>Request a little walkthrough</h3><p>We’ll show you around — no pressure, ever.</p><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Alex Morgan" autocomplete="name" required minlength="2"><span class="field-error" id="name-error"></span><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="alex@example.com" autocomplete="email" required><span class="field-error" id="email-error"></span><label for="interest">What are you studying?</label><select id="interest" name="interest"><option value="">Choose your focus (optional)</option><option>Science &amp; maths</option><option>Arts &amp; humanities</option><option>Languages</option><option>A little bit of everything</option></select><button class="button button-dark form-submit" type="submit">Request my demo <span>↗</span></button><p class="form-message" id="form-message" role="status" aria-live="polite"></p><small class="privacy-note">Just a friendly follow-up. Your details stay yours.</small></form></div></section>
+  </main>
+
+  <footer class="footer"><div class="container footer-main"><a class="brand footer-brand" href="#home"><span class="brand-mark">s</span><span>studyflow</span></a><p>Make room for your best work.</p><div class="footer-links"><a href="#features">Features</a><a href="#how-it-works">How it works</a><a href="#pricing">Pricing</a><a href="#contact">Say hello</a></div></div><div class="container footer-bottom"><span>© <span id="year"></span> StudyFlow. Made for learning.</span><a href="#home">Back to the top ↑</a><span>Small steps. Good things.</span></div></footer>
+</body>
+</html>
